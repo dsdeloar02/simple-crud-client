@@ -1,0 +1,20 @@
+.HeaderWrapper{
+    background-color: rgb(207, 206, 206);
+    padding: 20px;
+}
+.navWrapper{
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navWrapper ul{
+    display: flex;
+}
+.navWrapper ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+.navWrapper li a{
+    text-decoration: none;
+}

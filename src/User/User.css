@@ -1,0 +1,33 @@
+.userWraper{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px auto;
+    width: 21%;
+    background-color: brown;
+    color: aliceblue;
+}
+.userWrappers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2% auto;
+}
+
+.edWrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edWrap button {
+    padding: 8px 10px;
+    background-color: rgb(88 8 8);
+    border: 0px;
+}
+
+.edWrap button svg {
+    color: #fff;
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+}
